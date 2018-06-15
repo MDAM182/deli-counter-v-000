@@ -1,12 +1,12 @@
 def line(katz_deli)
-puts "The line is currently empty." if  katz_deli.count == 0
-x=0
-counter ="The line is currently:" 
-while x < katz_deli.length
- counter+=" #{x+1}.#{katz_deli[x]}"
- x+=1
-end
-puts counter 
+  puts "The line is currently empty." if  katz_deli.count == 0
+    x=0
+    counter ="The line is currently:"
+    while x < katz_deli.length
+      counter+=" #{x+1}.#{katz_deli[x]}"
+      x+=1
+    end
+puts counter
 end
 end
 
